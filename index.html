@@ -16,7 +16,10 @@
             <h2>Sign In</h2>
             <form>
                 <input type="text" placeholder="Username">
-                <input type="password" placeholder="Password">
+                <div class="password-container">
+                    <input type="password" id="password" class="input-box" placeholder="Password" required>
+                    <span class="toggle-password" onclick="togglePassword()">Show</span>
+                </div>
                 <button type="submit">Login</button>
                 <div class="links">
                     <a href="#">Forget Password</a>
