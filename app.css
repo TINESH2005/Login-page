@@ -77,4 +77,19 @@ body {
         z-index: -1; /* Ensure the video is behind all content */
         object-fit: cover; /* Makes the video cover the entire screen */
     }
+.password-container {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .toggle-password {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        font-size: 14px;
+        color: #666;
+    }
     
